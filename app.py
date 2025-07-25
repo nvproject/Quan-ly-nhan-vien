@@ -5,7 +5,7 @@ from bson import ObjectId
 from dotenv import load_dotenv
 import os
 
-load_dotenv()  # change this to the path of your .env file
+load_dotenv()   # Không cần truyền đường dẫn nếu .env cùng thư mục với app.py
 
 app = Flask(__name__)
 
